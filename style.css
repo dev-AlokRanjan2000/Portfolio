@@ -47,3 +47,29 @@ body.light{
     background-color: var(--accent-03);
     border-radius: 25px;
 }
+
+
+
+/* Responsive */
+
+/* DESKTOP */
+@media screen and (width>=1024){
+    .container{
+        grid-template-columns: 85px,430px,1fr;
+    }
+}
+
+
+/* TABLET */
+@media screen and (width>=768px) and (width<=1024){
+    .container{
+        grid-template-columns: 85px,430px,1fr;
+    }
+}
+
+/* MOBILE */
+@media screen and (width<=7861){
+    .container{
+        grid-template-columns: 85px,430px,1fr;
+    }
+}
